@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh; /*占满整个屏幕*/
+  display: grid;
+  grid-template-rows: 60px auto 60px; /*给每一行一个高度*/
+  grid-template-columns: 100px auto 100px; /*给每一行一个高度*/
+  grid-template-areas:
+    "header header header"
+    "aside main ad"
+    "footer footer footer";
+}
+.container > * {
+  border: 1px solid red;
+}
+.container > header {
+  grid-area: header;
+}
+.container > aside {
+  grid-area: aside;
+}
+.container > main {
+  grid-area: main;
+}
+.container > .ad {
+  grid-area: ad;
+}
+.container > footer {
+  grid-area: footer;
+}
