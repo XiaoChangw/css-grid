@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  border: 10px solid red;
+  flex-direction: row;
+}
+.item {
+  width: 50px;
+  height: 50px;
+  border: 10px solid green;
+}
+
+.container2 {
+  display: flex;
+  border: 10px solid red;
+  flex-direction: row-reverse;
+}
+.item {
+  width: 50px;
+  height: 50px;
+  border: 10px solid green;
+}
+
+.container3 {
+  display: flex;
+  border: 10px solid red;
+  flex-direction: column;
+}
+.item {
+  width: 50px;
+  height: 50px;
+  border: 10px solid green;
+}
+.container4 {
+  display: flex;
+  border: 10px solid red;
+  flex-direction: column-reverse;
+}
+.item {
+  width: 50px;
+  height: 50px;
+  border: 10px solid green;
+}
